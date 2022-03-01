@@ -102,7 +102,7 @@ app.get('/makeAccount', (req, res) => {
       con.query(sql_statement, function (error, results, fields) {
         if (error) throw error;
         else {
-          let sql_statement = `INSERT INTO PatientsFillHistory (patient, history) 
+          let sql_statement = `INSERT INTO PatientsFillHistory (patient, history)  
           VALUES ` + `("${email}",${generated_id})`;
           console.log(sql_statement);
           con.query(sql_statement, function (error, results, fields) {
