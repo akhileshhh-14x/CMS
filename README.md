@@ -1,4 +1,4 @@
-# Hosital-Management-System-DBMS
+# Clinic-Management-System-DBMS
 
 <pre>
 Name: Akhilesh Sanikop
